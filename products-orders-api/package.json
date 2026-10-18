@@ -1,0 +1,14 @@
+{
+  "name": "products-orders-api",
+  "version": "1.0.0",
+  "description": "A small REST API for managing products and orders, backed by SQLite.",
+  "main": "server.js",
+  "engines": { "node": ">=22.13" },
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "express": "^4.21.0"
+  }
+}
